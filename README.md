@@ -2,6 +2,8 @@
 
 ### 🧹 Step 1: Data Cleaning
 
+<img width="1534" height="293" alt="image" src="https://github.com/user-attachments/assets/29a2269e-5ae7-48c8-b459-11390d306514" />
+
 To start, I cleaned up the dataset to make it ready for analysis:
 - Removed duplicate entries.
 - Cleaned up the Gender column by replacing "M" and "F" with full labels — "Male" and "Female".
@@ -9,6 +11,10 @@ To start, I cleaned up the dataset to make it ready for analysis:
 - Added a Current Date column just before Birthdate, so I could calculate the real age of each person using the =YEARFRAC() formula.
 - Checked the gdp_country column for invalid characters by testing simple formulas (like =Q2+R2) — errors pointed to non-numeric values.
 - Fixed those entries by using Find and Replace, then formatted the column to Number with 0 decimal places for consistency.
+
+<img width="1586" height="587" alt="image" src="https://github.com/user-attachments/assets/03aaeb65-1aa0-4ea6-9285-373a0133e770" />
+
+<img width="856" height="545" alt="image" src="https://github.com/user-attachments/assets/107b807b-8a5c-4905-ba6a-2cf4136810c0" />
 
 
 ### 📊 Step 2: Data Analysis
