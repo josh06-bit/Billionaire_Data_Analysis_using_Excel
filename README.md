@@ -14,6 +14,7 @@ To start, I cleaned up the dataset to make it ready for analysis:
 - Checked the gdp_country column for invalid characters by testing simple formulas (like =Q2+R2) — errors pointed to non-numeric values.
 - Fixed those entries by using Find and Replace, then formatted the column to Number with 0 decimal places for consistency.
 
+
 <img width="1586" height="587" alt="image" src="https://github.com/user-attachments/assets/03aaeb65-1aa0-4ea6-9285-373a0133e770" />
 
 <img width="856" height="545" alt="image" src="https://github.com/user-attachments/assets/107b807b-8a5c-4905-ba6a-2cf4136810c0" />
@@ -30,6 +31,7 @@ I started with basic descriptive statistics using the Data Analysis Toolpak:
 - Selected my data range and ran the summary tool.
 - This gave me useful info like the average age, minimum and maximum net worth, and total count of people.
 
+
 <img width="367" height="509" alt="image" src="https://github.com/user-attachments/assets/acdf1ea9-98b9-438e-92ce-dc22a8ada65c" />
 
 
@@ -39,6 +41,7 @@ Next, I used a Pivot Table to find out who the Top 10 richest people were:
 
 - Set personName as the row label, and finalWorth as the value.
 - Used filters to only show the top 10, and sorted them from highest to lowest.
+
 
 <img width="336" height="286" alt="image" src="https://github.com/user-attachments/assets/e2a620e1-568f-451f-b75a-ef8d52f65e9a" />
 
@@ -67,6 +70,7 @@ To make everything easier to explore:
 - I added Slicers for Industry, Self-Made, and Gender, so you can interact with the data.
 - Made sure both Pivot Tables were connected to the slicers using Report Connections, so filtering updates both charts.
 - Created a bar chart for the Top 10 billionaires, and another one for the age distribution.
+
 
 <img width="1518" height="555" alt="image" src="https://github.com/user-attachments/assets/14963a84-f008-4f51-801f-03d6fc18a662" />
 
